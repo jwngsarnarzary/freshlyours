@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>B.Com Fruit Corner 🍉</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fffdf4;
+      color: #333;
+    }
+    header, footer {
+      background-color: #f57c00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 12px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 30px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2.section-title {
+      margin-top: 40px;
+      font-size: 24px;
+      color: #f57c00;
+      border-bottom: 2px solid #fdbb4f;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      width: 280px;
+      padding: 15px;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin-top: 12px;
+      font-size: 18px;
+    }
+    .card p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .add-to-cart {
+      background: #f57c00;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    form {
+      margin-top: 40px;
+      background: white;
+      padding: 20px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+    form button {
+      background: #388e3c;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>B.Com Fruit Corner 🥭</h1>
+  <p>Fresh Fruits • Juices • Smoothies</p>
+  <nav>
+    <a href="#salads">Fruit Salads</a>
+    <a href="#juices">Juices</a>
+    <a href="#smoothies">Smoothies</a>
+    <a href="#order">Order</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- 🥗 Fruit Salads Section -->
+  <h2 class="section-title" id="salads">🥗 Fruit Salads</h2>
+  <div class="product-grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Fruit+Salad" alt="Fruit Salad">
+      <h3>Fruit Salad – ₹30</h3>
+      <p><strong>Ingredients:</strong> Apple, watermelon, banana, papaya, grapes</p>
+      <p><strong>Benefits:</strong> Loaded with fiber, vitamins, and hydration</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Mixed+Fruit+Salad" alt="Mixed Fruit Salad">
+      <h3>Mixed Fruit – ½ ₹20 / Full ₹40</h3>
+      <p><strong>Ingredients:</strong> Seasonal mix with honey or lime dressing</p>
+      <p><strong>Benefits:</strong> Immune booster, supports digestion</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Custom+Fruit+Bowl" alt="Custom Fruit">
+      <h3>Customized Salad – ₹Varies</h3>
+      <p><strong>Ingredients:</strong> Customer choice of fruits and toppings</p>
+      <p><strong>Benefits:</strong> Personalized to dietary needs</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+  </div>
+
+  <!-- 🧃 Juice Section -->
+  <h2 class="section-title" id="juices">🍹 Juices</h2>
+  <div class="product-grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Lemon+Juice" alt="Lemon Juice">
+      <h3>Lemon Juice – ₹20</h3>
+      <p><strong>Ingredients:</strong> Lemon, salt, jaggery</p>
+      <p><strong>Benefits:</strong> Detox, improves hydration</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Orange+Juice" alt="Orange Juice">
+      <h3>Orange Juice – ₹30</h3>
+      <p><strong>Ingredients:</strong> Fresh oranges</p>
+      <p><strong>Benefits:</strong> Vitamin C, skin & immunity</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Sweet+Lemon" alt="Mousambi Juice">
+      <h3>Mousambi Juice – ₹50</h3>
+      <p><strong>Ingredients:</strong> Sweet lemon</p>
+      <p><strong>Benefits:</strong> Gentle & refreshing, good for stomach</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Pineapple+Juice" alt="Pineapple Juice">
+      <h3>Pineapple Juice – ₹40</h3>
+      <p><strong>Ingredients:</strong> Pineapple</p>
+      <p><strong>Benefits:</strong> Helps digestion, tropical refreshment</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Watermelon+Juice" alt="Watermelon Juice">
+      <h3>Watermelon Juice – ₹40</h3>
+      <p><strong>Ingredients:</strong> Fresh watermelon, mint (optional)</p>
+      <p><strong>Benefits:</strong> Ultra-hydrating, cools body</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Carrot+Beetroot" alt="Carrot Beetroot">
+      <h3>Carrot Beetroot Mix – ₹60</h3>
+      <p><strong>Ingredients:</strong> Carrot, beetroot, lemon</p>
+      <p><strong>Benefits:</strong> Rich in iron, supports liver function</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+  </div>
+
+  <!-- 🍓 Smoothie Section -->
+  <h2 class="section-title" id="smoothies">🍓 Smoothies</h2>
+  <div class="product-grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Mango+Smoothie" alt="Mango Smoothie">
+      <h3>Mango Smoothie – ₹80</h3>
+      <p><strong>Ingredients:</strong> Mango, yogurt/milk, honey</p>
+      <p><strong>Benefits:</strong> Vitamin A + C boost</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Banana+Peanut" alt="Banana Peanut Smoothie">
+      <h3>Banana Peanut Smoothie – ₹80</h3>
+      <p><strong>Ingredients:</strong> Banana, peanut butter, milk</p>
+      <p><strong>Benefits:</strong> High energy and protein</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Strawberry+Yogurt" alt="Strawberry Smoothie">
+      <h3>Strawberry Yogurt Smoothie – ₹100</h3>
+      <p><strong>Ingredients:</strong> Strawberry, yogurt, honey</p>
+      <p><strong>Benefits:</strong> Great for gut & antioxidants</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Turmeric+Mango" alt="Turmeric Mango">
+      <h3>Turmeric Mango Smoothie – ₹60</h3>
+      <p><strong>Ingredients:</strong> Mango, turmeric, honey, yogurt</p>
+      <p><strong>Benefits:</strong> Anti-inflammatory & healing</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Coconut+Smoothie" alt="Coconut Milk">
+      <h3>Coconut Milk Smoothie – ₹100</h3>
+      <p><strong>Ingredients:</strong> Coconut milk, banana, honey</p>
+      <p><strong>Benefits:</strong> Dairy-free, cooling & nourishing</p>
+      <button class="add-to-cart">Add to Order</button>
+    </div>
+  </div>
+
+  <!-- 🛒 Order Form -->
+  <h2 class="section-title" id="order">🛒 Place Your Order</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="email" placeholder="Email (optional)">
+    <textarea rows="4" placeholder="Order details (e.g., 1x Mango Smoothie, 2x Fruit Salad)" required></textarea>
+    <button type="submit">Proceed to Pay</button>
+  </form>
+  <p style="text-align:center; margin-top: 8px;">*Online payment integration coming soon</p>
+</div>
+
+<footer>
+  <p>&copy; 2025 B.Com Fruit Corner 🍍 | Made with 💚 in Chennai</p>
+</footer>
+
+</body>
+</html>
